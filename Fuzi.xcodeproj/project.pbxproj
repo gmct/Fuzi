@@ -15,6 +15,7 @@
 		0C354AA21D9633720005B0AD /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C354A991D9633720005B0AD /* Node.swift */; };
 		0C354AA31D9633720005B0AD /* NodeSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C354A9A1D9633720005B0AD /* NodeSet.swift */; };
 		0C354AA41D9633720005B0AD /* Queryable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C354A9B1D9633720005B0AD /* Queryable.swift */; };
+		5BF3FA8B2524F70D0070B62F /* carthage-fix.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 5BF3FA8A2524F70D0070B62F /* carthage-fix.xcconfig */; };
 		792500BC1BA6CFBB0011671B /* Fuzi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792500AB1BA6CF6B0011671B /* Fuzi.framework */; };
 		792500C81BA6D06B0011671B /* AtomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799F461B1B90479F00E4CE2C /* AtomTests.swift */; };
 		792500C91BA6D06E0011671B /* XMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799F46271B904CE500E4CE2C /* XMLTests.swift */; };
@@ -50,6 +51,7 @@
 		0C354A991D9633720005B0AD /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		0C354A9A1D9633720005B0AD /* NodeSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NodeSet.swift; sourceTree = "<group>"; };
 		0C354A9B1D9633720005B0AD /* Queryable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queryable.swift; sourceTree = "<group>"; };
+		5BF3FA8A2524F70D0070B62F /* carthage-fix.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "carthage-fix.xcconfig"; sourceTree = "<group>"; };
 		7913918E1B53B09F00BC07C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		792500AB1BA6CF6B0011671B /* Fuzi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Fuzi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		792500B71BA6CFBB0011671B /* FuziTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuziTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +107,7 @@
 		791391731B53B09F00BC07C3 = {
 			isa = PBXGroup;
 			children = (
+				5BF3FA8A2524F70D0070B62F /* carthage-fix.xcconfig */,
 				0C354A921D9633720005B0AD /* Sources */,
 				7913918B1B53B09F00BC07C3 /* Tests */,
 				7913917E1B53B09F00BC07C3 /* Products */,
@@ -242,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BF3FA8B2524F70D0070B62F /* carthage-fix.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +305,7 @@
 /* Begin XCBuildConfiguration section */
 		7913918F1B53B09F00BC07C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BF3FA8A2524F70D0070B62F /* carthage-fix.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
@@ -370,6 +375,7 @@
 		};
 		791391901B53B09F00BC07C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BF3FA8A2524F70D0070B62F /* carthage-fix.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
